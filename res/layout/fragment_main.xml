@@ -1,0 +1,16 @@
+ <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_padding_bottom"
+    android:paddingLeft="@dimen/activity_padding_left"
+    android:paddingRight="@dimen/activity_padding_right"
+    android:paddingTop="@dimen/activity_padding_top"
+    tools:context="com.fewpeople.sunshine.ForecastFragment" >
+
+   <ListView 
+       android:id="@+id/listview_forecast"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"/>
+
+</FrameLayout>
